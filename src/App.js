@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Typography } from '@mui/material';
+import DrawerAppBar from './component/DrawerAppBar';
+
 
 function App() {
   return (
     <div className="App">
-     <Typography component='h1'>Test App</Typography>
+     <DrawerAppBar/>
     </div>
   );
 }
